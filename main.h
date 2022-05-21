@@ -21,7 +21,7 @@
 
 /**
  * struct parameters - parameters struct
- * 
+ *
  * @unsign: flag if unsigned value
  *
  * @plus_flag: on if plus_flag specified
@@ -93,7 +93,7 @@ char *get_width(char *s, params_t *params, va_list ap);
 /* convert_number.c module */
 int print_hex(va_list ap, params_t *params);
 int print_HEX(va_list ap, params_t *params);
-int print_binary(va_list ap, params_t *params);a
+int print_binary(va_list ap, params_t *params);
 int print_octal(va_list ap, params_t *params);
 
 /* simple_printers.c module */
